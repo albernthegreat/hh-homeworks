@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    margin: 0px auto;
+    display: block;
+    width: 1000px;
+    min-height: 1250px;
+}
+#head{
+    margin: 0px auto;
+    display: inline-block;
+
+}
+h1{
+    font-size: 50px;
+    padding: 0px 100px 0px 100px;
+    display: inline-block;
+}
+img{
+    vertical-align: bottom;
+    display: inline;
+    min-height: 100px;
+    width: 250px;
+}
+li{
+    padding: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: sans-serif;
+    border: 1px solid;
+    font-size: 30px;
+    text-align: center;
+}   
+#dates li{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+#firstweek li{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+#secondweek li{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+#thirdweek li{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+#fourthweek li{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+#fifthweek li{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.sunday{
+    background-color: dodgerblue;
+}
+.saturday{
+    background-color: lightgreen;
+}
+.gray{
+    background-color: azure;
+}

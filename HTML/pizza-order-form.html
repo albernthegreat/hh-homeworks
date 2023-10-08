@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <form action="proccess.php" method ="post">
+            <h1>Pizza Order Form</h1>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname">
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname">
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+
+            <label for="preferred-delivery-date">Preferred Delivery Date:</label>
+            <input type="date" name="preferred-delivery-date" id="preferred-delivery-date">
+
+            <h3>Size:</h3>
+            <input type="checkbox" id="size-small" name="size-small">
+            <label for="size-small">Small</label>
+            
+            <input type="checkbox" id="size-medium" name="size-medium">
+            <label for="size-medium">Medium</label>
+
+            <input type="checkbox" id="size-large" name="size-large">
+            <label for="size-large">Large</label>
+
+            <h3>Flavor</h3>
+            <input type="checkbox" id="hawaiian" name="flavor">
+            <label for="hawaiian">Hawaiian (Php. 150.00)</label>
+            <select name="value">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <input type="checkbox" id="pepperoni-flavor" name="pepperoni-flavor">
+            <label for="pepperoni-flavor">Pepperoni (Php. 140.00)</label>
+            <select name="answer">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <input type="checkbox" id="vegetable-flavor" name="vegetable-flavor">
+            <label for="vegetable-flavor">Hawaiian (Php. 130.00)</label>
+            <select name="answer">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <br>
+            <label for="credit-card-number">Credit card number:</label>
+            <input type="number" id="credit-card-number">
+
+            <label for="pin">PIN</label>
+            <input type="password" id="pin">
+
+            <p>Additional Note:</p>
+            <textarea></textarea>
+            <input type="submit" value="Submit">
+
+        </form>
+    </body>
+</html>

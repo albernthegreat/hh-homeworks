@@ -1,0 +1,98 @@
+*{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+    .container{
+        margin: 0px auto ;
+        display: block;
+        width: 780px;
+        min-height: 800px;
+        background-color: beige;
+    }
+    .header{
+
+        margin-bottom: 20px;
+        display: inline-block;
+    }   
+        .header img {
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;  
+        }
+        .personal-info{
+            margin: 0px;
+            padding: 0px 0px 40px 0px;
+            display: inline-block;
+        }
+        .personal-info h1 {
+            margin: 30px 30px 20px 30px;
+        }
+        .personal-info h3 {
+            margin: 30px 30px 20px 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid brown;
+        }
+        .personal-info li {
+            padding: 0px 10px 0px 0px;
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 20px;
+        }
+    .main{
+        margin: 0px 20px 0px 20px;
+        display: inline-block;
+    }
+        .main h2{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .main p{
+            display: inline-block;
+            padding: 10px;
+        }
+            .experience {
+                margin: 0px 10px 0px 0px;
+                display: inline-block;
+            }
+            .experience li{
+                display: inline-block;
+            }
+            .experience img{
+                width: 50px;
+                height: 50px;
+                display: inline-block;
+            }
+            .experience h3 {
+                display: inline-block;
+                margin-left: 70px;
+            }
+            .projects{
+                width: 400px;
+                vertical-align: top;
+                display: inline-block;
+                background-color: burlywood;
+            }
+            .projects h3{
+                margin: 10px 5px 5px 5px;
+                text-align: center;
+                display:block;
+            }
+            .projects p {
+                display: block;
+            }
+    .footer{
+        margin: 20px 100px 0px 0px;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+    }
+        .footer li {
+            margin: 5px;
+            display: inline-block;
+        }
+        .footer img {
+            width: 20px;
+        }
+        .footer a {
+            color: black;
+        }
